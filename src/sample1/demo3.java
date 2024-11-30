@@ -1,10 +1,22 @@
 package sample1;
 
-public class demo3 
+final class demo3 
 {
 
-	public static void main(String[] args) 
+	final void m1() 
 	{
-		System.out.println("___________");
+		
+		System.out.println();
+	} 
+	 void m1(int a) 
+	 {
+		 
+	 }
+	 static {
+		 System.out.println("hi jaydip");
+	 }
+	 public static void main(String[] args) 
+	 {
+	
 	}
 }
